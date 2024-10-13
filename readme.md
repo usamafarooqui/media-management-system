@@ -29,7 +29,7 @@ This project is a Media Management System built using Node.js, Express, and Mong
 
 1. **Clone the repository:**
    ```bash
-   git clone https://git@github.com:usamafarooqui/media-management-system.git
+   git clone https://github.com/usamafarooqui/media-management-system.git
    cd media-management-system
    Install the required dependencies:
    ```
@@ -67,5 +67,5 @@ GET /api/v1/media/admin/media - List all users' media (admin only, requires auth
 DELETE /api/v1/media/admin/media/:id - Delete media from any user (admin only, requires authentication)
 GET /api/v1/media/remaining-storage - Get the remaining storage for the authenticated user
 Instructions to Customize
-Replace https://git@github.com:usamafarooqui/media-management-system.git with your actual repository URL.
+Replace https://github.com/usamafarooqui/media-management-system.git with your actual repository URL.
 Adjust the MongoDB URI in the .env section to match your database credentials.
